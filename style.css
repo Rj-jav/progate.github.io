@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    overflow: hidden;
+    min-height: 45px;
+    margin:0 auto;
+    padding:0 15px;
+    line-height: 40px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+
+#wrapper {
+    width: 100%;
+    min-height: 600px;
+}
+
+#wrapper #header {
+    min-height: 130px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    opacity: 0.8;
+}
+
+#wrapper #header #header_left {
+    height: 110px;
+    width: 110px;
+    float: left;
+       
+}
+
+#wrapper #header #header_left img{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    object-fit: cover;
+}
+
+#wrapper #header #header_right {
+    height: 110px;
+    width: 440px;
+    float: right;
+    padding-top: 20px;
+}
+
+#wrapper #header #header_right ul{
+    list-style-type: none;
+}
+
+#wrapper #header #header_right ul li {
+    float: left;
+    width: 110px;
+}
+
+#wrapper #header #header_right a {
+    font-size: 20px;
+    color: #1553c5;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    height: 79px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#wrapper #header #header_right a:hover {
+    color: rgb(50, 231, 65);
+    opacity: 1.0;
+}
+
+#wrapper #header #header_right #itemhome {
+    background-image: url(../images/menu_icon1.gif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+
+#wrapper #header #header_right #itemhome:hover {
+    background-image: url(../images/menu_icon1_active.gif);
+    opacity: 1.0;
+}
+
+#wrapper #header #header_right #itemnews {
+    background-image: url(../images/menu_icon2.gif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+#wrapper #header #header_right #itemnews:hover {
+    background-image: url(../images/menu_icon2_active.gif);
+    opacity: 1.0;
+}
+
+#wrapper #header #header_right #itemgalery {
+    background-image: url(../images/menu_icon3.gif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+#wrapper #header #header_right #itemgalery:hover {
+    background-image: url(../images/menu_icon3_active.gif);
+    opacity: 1.0;
+}
+#wrapper #header #header_right #itemcontact {
+    background-image: url(../images/menu_icon4.gif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+#wrapper #header #header_right #itemcontact:hover {
+    background-image: url(../images/menu_icon4_active.gif);
+    opacity: 1.0;
+}
+
+#top-wrapper .top-wrapper {
+    height: 300px;
+    margin-top: 130px;
+} 
+
+#top-wrapper .top-wrapper {
+    background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg);
+    min-height: 200px; 
+    text-align: center;
+    padding-top: 20px;   
+    background-size: cover;
+    color: rgb(26, 10, 121);
+}
+
+#top-wrapper .top-wrapper h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    opacity: 0.7;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: typing 5s steps(70, end);
+    animation: animasi-ketik 5s steps(70, end);
+}
+
+@keyframes animasi-ketik{
+    from { width: 0; }
+}
+  
+@-webkit-keyframes animasi-ketik{
+    from { width: 0; }
+}
+
+#wrapper .top-wrapper h2{
+    font-size: 30px;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.clear {
+    clear:left;
+  }
+
+
+.container .lesson-wrapper {
+    padding-bottom: 80px;
+    max-width: 1170px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container .lesson-wrapper .heading h2{
+      padding-bottom: 20px;
+ }
+.lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 32%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #162a99;
+  }
+  
+
+.container #content_bottom {
+    min-height: 450px;
+}
+
+.container #content_bottom #content_bottom_left {
+    width: 580px;
+    float: left;
+    min-height: 320px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.container #content_bottom #content_bottom_left h5{
+    font-size: 27px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666666;
+}
+
+.container #content_bottom #content_bottom_left p{
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+}
+.container #content_bottom #content_bottom_right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.container #content_bottom #content_bottom_right h6 {
+    text-align: right;
+    text-decoration: underline;
+}  
+
+#footer {
+    background-color: #000000;
+    height: 60px;
+    color: beige;
+    padding-top: 20px;
+    text-align: center;    
+}
+
+#footer .container img{
+    margin:0 20px;
+}
+
+#footer .container marquee{
+text-align: center;
+}
