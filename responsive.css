@@ -51,6 +51,7 @@
       }
       .container #content_bottom #content_bottom_right {
         padding-right: 25px;
+        margin-right: 0px;
       }
       #footer {
         height: 80px;
